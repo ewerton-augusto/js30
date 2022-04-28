@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/reset.css">
+    <link rel="stylesheet" href="./public/styles.css">
+    <title>Drum Kit</title>
+</head>
+<body>
+    <main class="container">
+        <div class="drum">
+            <div data-key="65" class="key">a</div>
+            <div data-key="83" class="key">s</div>
+            <div data-key="68" class="key">d</div>
+            <div data-key="70" class="key">f</div>
+            <div data-key="71" class="key">g</div>
+            <div data-key="72" class="key">h</div>
+            <div data-key="74" class="key">j</div>
+            <div data-key="75" class="key">k</div>
+        </div>
+        <div>
+            <audio src="./public/sounds/effect-1.mp3" data-key="65"></audio>
+            <audio src="./public/sounds/effect-2.mp3" data-key="83"></audio>
+            <audio src="./public/sounds/effect-3.mp3" data-key="68"></audio>
+            <audio src="./public/sounds/effect-4.mp3" data-key="70"></audio>
+            <audio src="./public/sounds/effect-5.mp3" data-key="71"></audio>
+            <audio src="./public/sounds/effect-6.mp3" data-key="72"></audio>
+            <audio src="./public/sounds/effect-7.mp3" data-key="74"></audio>
+            <audio src="./public/sounds/effect-8.mp3" data-key="75"></audio>
+        </div>
+    </main>
+</body>
+<script src="./public/index.js"></script>
+</html>
